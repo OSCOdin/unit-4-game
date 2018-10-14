@@ -1,4 +1,4 @@
-<!DOCTYPE <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 
 <head>
@@ -8,16 +8,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
     <script src="assets/javascript/game.js"></script>
 </head>
 
 <body>
-    <div id = "title">
+    <div id="title">
         <h1>Crystal Collector</h1>
     </div>
-    <div id = "rules">
+    <div id="rules">
         <div>
-            <h3>Rules</h3>
+            <h3>Rules:</h3>
         </div>
         <div>
             <ul>
@@ -31,8 +33,23 @@
             </ul>
         </div>
     </div>
-    <div id = "game">
-        
+    <div id="game">
+        <div id="target">
+            <p id="targetScore"></p>
+        </div>
+        <div id="winlose">
+            <p id="wins"></p>
+            <p id="losses"></p>
+        </div>
+        <div id="gems">
+            <img src="assets/images/bluegem.png" height="100" width="100" id="blueG">
+            <img src="assets/images/redgem.png" height="100" width="100" id="redG">
+            <img src="assets/images/greygem.png" height="100" width="100" id="greyG">
+            <img src="assets/images/greengem.png" height="100" width="100" id="greenG">
+        </div>
+        <div id="total">
+            <p id="totalScore"></p>
+        </div>
     </div>
 
 </body>

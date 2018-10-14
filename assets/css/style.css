@@ -1,0 +1,31 @@
+#title {
+    font-size: 50px;
+    padding: 50px 50px 50px 20px;
+    width: 350px;
+}
+#rules {
+    height: 300px;
+    width: 300px
+}
+h3 {
+    font-size: 30px;
+    text-align: center;
+    height: 50px;
+}
+li:before {
+    content: "• "
+
+}
+#rules {
+    position: relative;
+    left: 20px;
+}
+#game {
+    position: relative;
+    left: 20px;
+
+}
+#target, #winlose, #gems, #total {
+    padding: 10px;
+    font-size: 20px;
+}
